@@ -1,0 +1,115 @@
+.container
+{
+	background-color: #D6D6D6;
+}
+
+#image
+{
+	position:absolute;
+	z-index: 1;
+	width: 100%;
+}
+
+#mainCanvas
+{
+    position:relative;
+    z-index:20;
+}
+
+.header {
+    width:100%;
+    position:fixed;
+    top: 0px;
+    z-index: 100;
+    background-color: #E6E6E6;
+}
+
+.page{
+	display: none;
+}
+
+.footer {
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    z-index: 100;
+    background-color: #E6E6E6;
+}
+
+.footerIcon{
+	width: 100%;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+}
+
+.postContent
+{
+	margin-top: 25px;
+}
+
+
+.postWrapper
+{
+	border: 1px solid;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-top: 20px;
+}
+
+.postImage
+{
+	width: 100%;
+}
+
+.postText
+{
+	position: relative;
+	color: #FFFFFF;
+	z-index: 20;
+	background-color: rgba(79,79,79,0.8);
+	margin-left: 5px;
+}
+
+.sideMenu
+{
+	background-color: #6E6E6E;
+}
+
+.icon
+{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menuButton
+{
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 50%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.headerButtonRight
+{
+	width: 100%;
+	padding-left: 50%;
+	padding-right: 10%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.nopadding 
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
